@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
 		});
         
         mText = (TextView) findViewById(R.id.main_text);
+        mText.setText("’‚¿Ô «hello world");
     }
 
 
