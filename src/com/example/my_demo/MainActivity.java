@@ -7,10 +7,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 public class MainActivity extends Activity {
 	private Button mBtn;
+	private TextView mText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,8 @@ public class MainActivity extends Activity {
 				
 			}
 		});
+        
+        mText = (TextView) findViewById(R.id.main_text);
     }
 
 
